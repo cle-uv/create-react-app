@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 import Button from './component/atoms/button/Button';
 import React from 'react';
