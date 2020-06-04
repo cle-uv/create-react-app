@@ -1,10 +1,10 @@
-import './Button.css'; // Tell webpack that Button.js uses these styles
-
 import React, { Component } from 'react';
+
+import styles from './Button.module.scss'; // Import css modules stylesheet as styles
 
 export default class Button extends Component {
   render() {
-  // You can use them as regular CSS styles
-  return <div className="Button" >Button</div>;
+    // reference as a js object
+    return <button className={styles.error}>Error Button</button>;
   }
 }
