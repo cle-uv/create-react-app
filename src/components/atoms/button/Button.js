@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import styles from './Button.module.scss'; // Import css modules stylesheet as styles
+import styles from './styles.module.scss'; // Import css modules stylesheet as styles
 
 export default class Button extends Component {
   render() {
