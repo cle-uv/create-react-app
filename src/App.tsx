@@ -1,7 +1,7 @@
-import Button from './components/atoms/button/Button';
+import Button from 'components/atoms/button/Button';
 import React from 'react';
-import logo from './logo.svg';
-import styles from './style.module.scss';
+import logo from 'logo.svg';
+import styles from 'style.module.scss';
 
 function App() {
   return (
