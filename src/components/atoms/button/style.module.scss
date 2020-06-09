@@ -1,6 +1,17 @@
-.error {
-  background-color: red;
-  color: white;
-  padding: 0.5rem;
-  margin-top: 1rem;
+.button {
+  background-color: #444;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1;
+  padding: 1rem 2rem;
+  text-align: center;
+  transition: background .2s ease;
+
+  &:focus,
+  &:hover {
+    background-color: #808080;
+  }
 }
